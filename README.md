@@ -2,4 +2,4 @@
 
 ## About Apicat
 
-**Apicat** is a very simple exercise, ti provides an extensible API to return resorces.
+**Apicat** is a very simple exercise, it provides an extensible API to return resorces.
