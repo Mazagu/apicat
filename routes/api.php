@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware(['api','customtoken'])->get('/cat', 'App\Http\Controllers\ImagesController@cat');
+Route::middleware(['api','customtoken'])->get('/{type}', 'App\Http\Controllers\ImagesController');
