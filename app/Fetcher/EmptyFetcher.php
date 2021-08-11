@@ -4,14 +4,14 @@ namespace App\Fetcher;
 
 use App\Models\Resource;
 
-class CatFetcher extends Fetcher
+class EmptyFetcher extends Fetcher
 {
 	private $resource;
 
 	public function __construct(Resource $resource)
 	{
 		$this->setResource($resource);
-		$this->resource->url = 'http://placekitten.com/200/300';
+		$this->resource->url = '';
 	}
 
 	public function setResource(Resource $resource)
